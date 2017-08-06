@@ -1,0 +1,19 @@
+{
+  "name": "astrum-sample-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hbsnow-sandbox/astrum-sample-project.git",
+  "author": "hbsnow <yuki.4uing@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "astrum:init": "astrum init ./public/pattern-library",
+    "astrum:new": "cross-env astrum new buttons/default",
+    "server": "node server.js"
+  },
+  "devDependencies": {
+    "astrum": "^1.9.5",
+    "connect": "^3.6.3",
+    "cross-env": "^5.0.4",
+    "serve-static": "^1.12.4"
+  }
+}
