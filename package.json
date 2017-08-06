@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "astrum:init": "astrum init ./doc",
-    "astrum:new": "cross-env astrum new buttons/default",
+    "astrum:new": "astrum new branding/color",
     "server": "node server.js"
   },
   "devDependencies": {
