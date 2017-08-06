@@ -6,7 +6,7 @@
   "author": "hbsnow <yuki.4uing@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "astrum:init": "astrum init ./public/pattern-library",
+    "astrum:init": "astrum init ./doc",
     "astrum:new": "cross-env astrum new buttons/default",
     "server": "node server.js"
   },
